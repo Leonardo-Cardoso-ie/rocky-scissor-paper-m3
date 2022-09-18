@@ -13,7 +13,8 @@ while True:
 
     """Use lower() - all characters typed will become lowercase"""
 
-    user_choice = input("Choose R(Rock)/S(Scissor)/P(Paper) Q (quit) n\").lower()
+    user_choice = input("Choose R(Rock)/S(Scissor)/P(Paper) or Q to Quit").lower()
+
 
     if user_choice == 'q':  #Quit the game
         break
