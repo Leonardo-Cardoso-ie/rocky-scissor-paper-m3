@@ -13,7 +13,7 @@ while True:
 
     """Use lower() - all characters typed will become lowercase"""
 
-    user_choice = input("Choose R(Rock)/S(Scissor)/P(Paper) Q to quit").lower()
+    user_choice = input("Choose R(Rock)/S(Scissor)/P(Paper) Q (quit) n\").lower()
 
     if user_choice == 'q':  #Quit the game
         break
@@ -29,18 +29,18 @@ while True:
     print("Computer chose " + cpu_option)  # 0 : R, 1 : T, 2 : P
 
     if user_choice == cpu_option:
-        print("Tie!")
+        print("Tie!\n")
 
     elif user_choice == "r" and cpu_option == "s":
-        print("You win!")
+        print("You win!\n")
         user_points = user_points + 1
 
     elif user_choice == "p" and cpu_option == "r":
-        print("You win!")
+        print("You win!\n")
         user_points = user_points + 1
 
     elif user_choice == "S" and cpu_option == "p":
-        print("You win!")
+        print("You win!\n")
         user_points = user_points + 1
 
     """if all conditions are false the user loses the game"""
@@ -50,11 +50,11 @@ print("Your score: " + str(user_points))
 print("Computer score: " + str(computer_points))
 
 if computer_points > user_points:
-    print("You Loose!!!!")
+    print("You Loose!!!!\n")
 elif computer_points == user_points:
-    print("Tie")
+    print("Tie \n")
 else:
-    print("You are the Champion!!")
+    print("You are the Champion!\n")
 
 
 
