@@ -33,6 +33,19 @@ Rock, paper and scissors (also known by other orderings of the three items, with
 
   
   ![terminal](https://user-images.githubusercontent.com/96269648/190933022-ae1dcbf0-56b1-434e-9526-efe6bc6efe47.png)
+  
+  
+  
+  
+  Two variables were created, one is the computer's score and the other is the user's score, And according to the conditions creating a loop, which is under the conditions of if/ else/elif statement where the user is playing against the computer , the code runs according to the choices, until the user decides not to play anymore, pressing Q .
+  
+  
+  
+  
+  
+  ![comand](https://user-images.githubusercontent.com/96269648/190935467-98b7cfe4-76d9-40b7-b0d4-9152dc13b6ae.png)
+
+
 
   
   
