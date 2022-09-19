@@ -5,7 +5,10 @@
 
 
 
-[![responsive](https://user-images.githubusercontent.com/96269648/190929774-5716f7f2-4037-4c24-b46d-11b4d31bebcc.png)
+
+![responsive](https://user-images.githubusercontent.com/96269648/190932976-c6803a36-bdcf-47c9-9fd8-e741aa5c69d7.png)
+
+
 
 
 
@@ -22,12 +25,15 @@ The Live link can be found here: https://rocky-scissor-paper-ms3.herokuapp.com/
 Rock, paper and scissors (also known by other orderings of the three items, with "rock" sometimes being called "stone," or as Rochambeau, roshambo, or ro-sham-bo) is a hand game originating from China, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock" (a closed fist), "paper" (a flat hand), and "scissors" (a fist with the index finger and middle finger extended, forming a V). "Scissors" is identical to the two-fingered V sign (also indicating "victory" or "peace") except that it is pointed horizontally instead of being held upright in the air.
 
 
-### Introduction
+### Introduction / UX
 
- The Rocky Scissor Paper game is an application developed in Python, and is a very simple version of the rock, paper and scissors game, where the user chooses one of the three options and plays against the computer, and just type a letter R (Rock), P (paper) and S for (Scissors), being able to type both uppercase and lowercase letters. The purpose of this project is to put into practice the knowledge about the Python language acquired during the course
+ The Rocky Scissor Paper game is an application developed in Python, and is a very simple version of the rock, paper and scissors game, where the user chooses one of the three options and plays against the computer, and just type a letter R (Rock), P (paper) and S for (Scissors), being able to type both uppercase and lowercase letters. The purpose of this project is to put into practice the knowledge about the Python language acquired during the course.
+ It was imported from Pyhtom, the Random Module, so that the computer also makes some choice, in a random way, to be able to interact with the user.
 
 
   
+  ![terminal](https://user-images.githubusercontent.com/96269648/190933022-ae1dcbf0-56b1-434e-9526-efe6bc6efe47.png)
+
   
   
   
@@ -35,7 +41,7 @@ Rock, paper and scissors (also known by other orderings of the three items, with
  
  
  
- (URL![terminal](https://user-images.githubusercontent.com/96269648/190932085-f5aae3ea-0ef3-4b48-8229-20e4c1947944.png)
+
  
   
 
@@ -46,7 +52,7 @@ Rock, paper and scissors (also known by other orderings of the three items, with
 
 
 
-- ### 
+
      
  
  ### Python
@@ -54,19 +60,28 @@ Rock, paper and scissors (also known by other orderings of the three items, with
 All code is written in Python 3.10.0
 
 
-### 
+
   
 
 
-## Testing 
+### Validator Testing 
 
 Application tested using PEP8 Online Check PEP8 Online Check.
+
+
+
+![pepvalid](https://user-images.githubusercontent.com/96269648/190932878-4d4fbd72-4b31-43eb-b242-eaab52f7ada7.png)
+
+
+## Bugs
+
+At times I had problems with the code indentation, I was writing the code and when I went through the validator some kind of error appeared, some of them I could not identify, even when I implemented my project on Heroku, a syntax error occurred in the line 16, and the code did not run. Since I had already deployed the project on the platform, I just put it in automatic mode, that is, any changes I make on my Github and give a push, automatically the code was corrected and started working normally, to resolve the bug, I just rewrote the code, as I couldn't identify the error.
  
   
 
-All code is written in Python 3.10.0
 
-- 
+
+
 
   
 ## Deployment
@@ -110,14 +125,13 @@ If you want to rebuild your app automatically you can also select the 'Enable Au
 
 ## Credits 
 
+In addition to the content, made available by the Code Institute, I also followed classes from some Youtubers, such as Gustavo Guanabara:
+https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0
 
-
-
-### Media
 
 
 
 
 ## Special Thanks
 
-- My special thanks go out to my family, my wife and my son, they know how hard it has been but they believe in me and the Code Institute 
+ My special thanks go out to my family, my wife and my son, they know how hard it has been but they believe in me and the Code Institute 
